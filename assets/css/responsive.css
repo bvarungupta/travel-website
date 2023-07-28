@@ -1,0 +1,393 @@
+        @media (min-width: 991.98px) {
+            ul.sub_menu {
+                background: #fff;
+                top: 100px;
+                border-radius: 0px 0px 6px 6px;
+            }
+            .main_menu_wrapper ul>li ul.sub_menu li a {
+                padding: 15px 20px 0;
+                color: #000;
+            }
+            .main_menu_wrapper ul>li>a {
+                color: var(--main-bg-color);
+            }
+            .main_menu_wrapper>ul>li>a {
+                padding: 20px 10px;
+            }
+        }
+        
+        @media (min-width: 1799.98px) {
+            .tor_header_wrapper .container-fluid,
+            .tor_footer_main_wrapper .container-fluid,
+            .tor_package_wrapper .container-fluid {
+                max-width: 1756px;
+            }
+        }
+        
+        @media (min-width: 1200px) {
+            .tor_form_location {
+                width: 26.5%;
+            }
+            .tor_form_date {
+                width: 18%;
+            }
+            .tor_form_type {
+                width: 22%;
+            }
+            .tor_form_field.tor_form_btn {
+                text-align: right;
+                width: 15%;
+            }
+            .tor_heading_wrpper {
+                width: 48%;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            .tor_service_img {
+                padding-left: 100px;
+            }
+            .tor_service_wrapper .col-xl-4 {
+                -ms-flex: 0 0 29%;
+                flex: 0 0 29%;
+                max-width: 29%;
+            }
+            .tor_service_wrapper .col-xl-8 {
+                -ms-flex: 0 0 71%;
+                flex: 0 0 71%;
+                max-width: 71%;
+            }
+            .tour_service {
+                padding: 30px 0 30px 30px;
+            }
+            .main-logo img {
+                max-width: 80%;
+            }
+        }
+        
+        @media (max-width: 1399.98px) {
+            .tor_widgets h5 {
+                font-size: 24px;
+            }
+        }
+        
+        @media (max-width: 1199.98px) {
+            .tor_best_serivce_section:before {
+                left: 30%;
+            }
+            .tor_heading_wrpper {
+                width: 85%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .tour_service {
+                padding: 30px 30px 30px 30px;
+            }
+            .tor_package_hover .tor_btn {
+                margin-bottom: -120px;
+            }
+            .tor_package_wrapper {
+                padding: 69px 0 21px;
+            }
+            .tor_testimonial_wrapper {
+                padding: 0 0 59px;
+            }
+            .tor_widgets h5 {
+                font-size: 20px;
+            }
+        }
+        
+        @media (max-width: 1199.98px) and (min-width: 992px) {
+            .tor_testimonials_section .tor_testimonials_button {
+                left: 11%;
+            }
+            .tor_about_page_wrapper {
+                padding: 69px 0 40px;
+            }
+        }
+        
+        @media (max-width: 991.98px) {
+            .main_menu_wrapper li.has_submenu:before,
+            .main_menu_wrapper li.has_submenu:after {
+                background: #067b8f;
+            }
+            .tor_best_serivce_section:before {
+                left: 40%;
+            }
+            .tor_form_field {
+                width: 33%;
+            }
+            .tor_banner_form .tor_btn,
+            .tor_form_field.tor_form_type:nth-child(4) {
+                margin: 20px 0 0;
+            }
+            .tor_widgets h5 {
+                font-size: 20px;
+            }
+            .tor_blog_title {
+                font-size: 18px;
+                line-height: 24px;
+            }
+            .tor_blog_info li {
+                margin-left: 3px;
+                font-size: 14px;
+            }
+            .tor_blog_info li img {
+                margin-right: 3px;
+            }
+            .tor_booking_wrapper .tor_form_field {
+                width: 50%;
+            }
+            .tor_testimonials_section .tor_testimonials_button {
+                left: 9%;
+            }
+            .tor_best_serivce_wrapper .col-lg-3:nth-child(3) .tor_best_serivce_section:before {
+                content: unset;
+            }
+            .tor_best_serivce_section:before {
+                left: 55%;
+            }
+            .tor_header_wrapper .row {
+                align-items: center;
+            }
+            .tor_header_wrapper {
+                padding: 10px 0 10px;
+                position: unset;
+                background: var(--main-link-color);
+                background: #fff;
+            }
+            .menu_btn {
+                height: auto;
+                margin: 0;
+                padding: 0;
+            }
+            .menu_btn span {
+                background: #067b8f;
+            }
+            .searchBtn,
+            .searchBtn:focus,
+            .searchBtn:hover {
+                padding: 0;
+            }
+            .tor_banner_wrapper {
+                padding: 189px 0 200px;
+            }
+            .tor_best_serivce_wrapper {
+                padding: 69px 0 44px;
+            }
+            .tour_packages_inner .bullets {
+                margin-bottom: 64px;
+            }
+            .tor_heading_wrpper.tor_testimonial_heading {
+                margin: 0px auto 20px;
+            }
+            .tor_testimonial_wrapper {
+                padding: 0 0 50px;
+            }
+            .tor_blog_wrapper {
+                padding: 69px 0 46px;
+            }
+            .tor_copyright_wrapper {
+                margin-top: 44px;
+            }
+            .tor_about_page_wrapper {
+                padding: 69px 0 40px;
+            }
+            .page_title_wrapper {
+                padding: 90px 0 94px 0;
+            }
+            .fixed_header {
+                position: relative;
+            }
+            .fixed_header.fixed {
+                background-color: transparent;
+            }
+        }
+        
+        @media (max-width: 767.98px) {
+            .tor_best_serivce_wrapper .tor_best_serivce_section:before {
+                content: unset;
+            }
+            .tor_testimonial_section {
+                flex-direction: column-reverse;
+            }
+            .tor_client_info {
+                padding: 50px 20px 50px 20px;
+                width: 100%;
+            }
+            .tor_testimonials_section .tor_testimonials_button {
+                left: 30px;
+                right: 30px;
+                width: 80%;
+            }
+            .tor_banner_text h1 {
+                font-size: 52px;
+                line-height: 60px;
+            }
+            .tor_heading {
+                font-size: 32px;
+            }
+            .tor_callToActionSecond_text h1 {
+                font-size: 42px;
+            }
+            .tor_form_field {
+                width: 100%;
+            }
+            .tor_banner_form form {
+                border-radius: 20px;
+                padding: 22px 15px 22px;
+            }
+            .tor_form_field.tor_form_location {
+                margin: 0;
+            }
+            .tor_form_field {
+                margin: 20px 0 0;
+            }
+            .tor_service_wrapper .padder_right {
+                padding-right: 15px;
+            }
+            .tor_callToActionSecond_text .popup-youtube i {
+                height: 80px;
+                width: 80px;
+                line-height: 80px;
+                font-size: 20px;
+            }
+            .tor_popup_wrpper span,
+            .tor_callToActionSecond_text>p {
+                font-size: 16px;
+            }
+            .tor_booking_content {
+                padding: 42px 20px 50px;
+            }
+            .tor_booking_wrapper .tor_form_field {
+                width: 100%;
+            }
+            .tor_callToActionSecond_wrapper {
+                padding: 66px 0 80px;
+            }
+            .tor_best_serivce_wrapper {
+                padding: 66px 0 44px;
+            }
+            .tour_packages_inner .bullets {
+                margin-bottom: 60px;
+            }
+            .tor_testimonials_section {
+                margin-top: 0;
+            }
+            .tor_testimonials_section .tor_testimonials_button>div:before {
+                top: 9px;
+            }
+            .tor_booking_wrapper {
+                padding: 66px 0 80px;
+            }
+            .tor_blog_wrapper {
+                padding: 66px 0 46px;
+            }
+            .tor_copyright_wrapper {
+                padding: 15px 0 14px;
+            }
+            .tor_about_page_wrapper {
+                padding: 80px 0 40px;
+            }
+            .tor_contact_from {
+                padding: 45px 15px 50px;
+            }
+            .blogImgTextContainer img {
+                margin: 15px 0;
+                width: 100%;
+            }
+            .blogImgTextContainer p {
+                width: 100%;
+            }
+        }
+        
+        @media (max-width: 575.98px) {
+            .tor_testimonial_img {
+                width: 70%;
+            }
+            .tor_testimonials_quote {
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+            }
+            .tor_quote_img {
+                height: 16px;
+            }
+            .tor_booking_wrapper .nav-tabs .nav-link {
+                width: 60px;
+                min-height: 50px;
+            }
+            .tor_booking_wrapper .nav-tabs .nav-link.active:before {
+                height: 2px;
+            }
+            .tor_tab_icons svg {
+                height: 20px;
+                width: 20px;
+            }
+            .tor_booking_wrapper .nav-tabs .nav-link.active:after {
+                border-right: 10px solid transparent;
+                border-bottom: 10px solid var(--main-bg-color);
+                border-left: 10px solid transparent;
+                width: 15px;
+                height: 10px;
+            }
+            .popup-youtube i {
+                width: 60px;
+                height: 60px;
+                line-height: 60px;
+            }
+            .tor_callToActionSecond_text .popup-youtube i {
+                height: 70px;
+                width: 70px;
+                line-height: 70px;
+            }
+            .tor_popup_wrpper span {
+                font-size: 14px;
+                padding: 16px 30px 16px 60px;
+            }
+            .tor_package_wrapper {
+                padding: 66px 0 21px;
+            }
+            .tor_testimonials_section .tor_testimonials_button>div:before {
+                top: 10px;
+            }
+            a.tor_about_num {
+                font-size: 32px;
+            }
+            .tor_about_page_wrapper {
+                padding: 80px 0 35px;
+            }
+            .blogBlockquoteQuate,
+            .blogAuthoreContent,
+            .blogCmntDetail {
+                width: 100%;
+                margin: 15px 0 0;
+            }
+            .blogPageInfo ul li {
+                width: 100%;
+                margin: 10px 0 0;
+            }
+            .blogPaginationWrapper ul li a,
+            .blogPaginationWrapper ul li.dot:hover a {
+                width: 30px;
+                height: 30px;
+                line-height: 32px;
+            }
+            .blogPage_wrapper {
+                padding: 80px 0 70px;
+            }
+            .main-logo img {
+                max-width: 75%;
+            }
+            .main_menu_wrapper ul>li>a {
+                padding: 10px 15px 0px;
+            }
+            .main_menu_wrapper ul>li>a {
+                font-size: 1rem;
+            }
+            .main_menu_wrapper li {
+                padding-bottom: 10px;
+            }
+            .tor_banner_text h6 {
+                font-size: 25px;
+            }
+        }
